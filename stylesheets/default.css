@@ -1,0 +1,33 @@
+header {
+  border: 2px black solid;
+  height: 200px;
+  width: 600px;
+  margin: auto;
+}
+
+ul {
+  border: 3px green dotted;
+
+}
+
+li {
+  position: relative;
+  display: inline-block;
+  border: .7px red solid;
+  margin-right: 13%;
+  left: 10%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  border: 2px black solid;
+  width: 100%;
+  margin: auto;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
