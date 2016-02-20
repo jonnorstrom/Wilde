@@ -1,8 +1,19 @@
 h2 {
+  color: white;
   text-align: center;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow:  0.5px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 main {
   width: 750px;
   margin: auto;
+  padding-bottom: 40px;
+}
+
+main p {
+  color: white;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
 }

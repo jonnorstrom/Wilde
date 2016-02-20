@@ -1,10 +1,71 @@
+html {
+  min-width: 1150px;
+  background: radial-gradient(#18a361, #116f43);
+}
+
 header {
-  border: 2px black solid;
+  border: #bff3ca 1px dotted;
   height: 200px;
   width: 600px;
   margin: auto;
 }
 
+.ul {
+  text-align: center;
+}
+
+.ul p {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  margin: 10px 70px 10px 70px;
+  text-shadow: 0px 2px 1px rgba(0, 50, 30, 0.28);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-content {
+  text-align: left;
+  display: none;
+  position: absolute;
+  left: 105px;
+  top: 32px;
+  background: radial-gradient(#21784a, #165031);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 140px;
+  border-radius: 8px;
+  z-index: 9999;
+}
+
+.drop-content p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: white;
+  position: relative;
+  margin: 3px 10px 3px 10px;
+}
+
+.dropdown:hover .drop-content {
+  display: block;
+}
+
+.ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.ul a:hover {
+  text-shadow: 0px 4px 1px rgba(0, 80, 30, 0.70);
+}
+
+.ul a:active {
+  font-size: 19px;
+  text-shadow: 0px 2px 1px rgba(0, 50, 30, 0.28);
+  padding-right: 7px;
+}
+/*
 ul {
   border: 3px green dotted;
 
@@ -17,16 +78,21 @@ li {
   margin-right: 13%;
   left: 10%;
 }
-
+*/
 footer {
   position: fixed;
+  height: 60px;
+  left: 0px;
   bottom: 0px;
-  border: 2px black solid;
   width: 100%;
-  margin: auto;
+  background-color: #0a4328;
 }
 
 footer p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #c3eed6;
+  font-weight: 400;
+  font-size: 15px;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 0px;

@@ -1,0 +1,28 @@
+.map {
+  display: inline-block;
+  position: relative;
+  float: left;
+  top: 15px;
+  left: 30px;
+}
+
+h4 {
+  display: inline-block;
+  position: relative;
+  left: 10%;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+article p {
+  display: inline-block;
+  position: relative;
+  left: 40px;
+  bottom: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 350;
+  font-family: 'Source Sans Pro', sans-serif;
+}
