@@ -1,0 +1,44 @@
+h2 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow:  0.5px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow:  0.5px .5px 2px rgba(0, 0, 0, 0.6);
+}
+
+fieldset {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #d7f4df;
+  font-weight: 400;
+  font-size: 18px;
+  text-shadow:  0.5px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+label {
+  font-weight: bold;
+}
+
+.radio p {
+  display: inline-block;
+}
+
+.ins_options p {
+  display: inline-block;
+  margin-top: 0px;
+}
+
+input {
+  font-size: 15px;
+}

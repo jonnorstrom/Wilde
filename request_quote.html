@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="stylesheets/request_quote.css"/>
+  <title>Request a Quote | Wilde</title>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="#" alt="Wilde Name Logo"></a>
+  </header>
+  <div class="ul">
+      <p><a href="request_quote.html">Request A Quote</a></p>
+      <p><a href="#">Filing Claims</a></p>
+        <div class="dropdown">
+          <p><a href="#">Insurance</a></p>
+            <div class="drop-content">
+              <p><a href="#">Personal</a></p>
+              <p><a href="#">Commercial</a></p>
+              <p><a href="#">Farming</a></p>
+            </div>
+        </div>
+      <p><a href="contact_us.html">Contact Us</a></p>
+  </div>
+  <section>
+    <h2>To request a quote:</h2>
+    <h4>Please call us at 330.927.6025 or fill out this short form and someone will reach out to you!</h4>
+  </section>
+  <form action="MAILTO:jon.norstrom@gmail.com" method="post" enctype="text/plain">
+    <fieldset>
+      <span class="label"><label>
+        Name:  <input type="text" name="name" placeholder="Your name here"
+      </label>
+      <label>
+        Email:  <input type="text" name="email" placeholder="jondoe@email.com"
+      </label></span>
+      <br>
+      <span class="radio">
+        <p>What type of Insurance are you inquiring about?</p>
+        <p>
+          <input type="radio" class="text_box" name="type_of_ins" value="Personal" checked="checked" /> Personal
+          <input type="radio" class="text_box" name="type_of_ins" value="Commercial" /> Commercial
+        </p>
+      </span>
+      <br>
+      <span class="ins_options">
+        <p>What do you wish to insure</p>
+        <select name="type">
+          <option value="Home">Home</option>
+          <option value="Auto">Auto</option>
+          <option value="Renters">Renters</option>
+          <option value="Other">Other</option>
+        </select>
+      </span>
+    </fieldset>
+  </form>
+  <footer>
+    <p><br></p>
+    <p>Email: wildecorpmail@gmail.com  Phone: 330.927.6025</p>
+    <p>Site made by: Jon&Sean Web</p>
+  </footer>
+</body>
+</html>
