@@ -49,12 +49,17 @@ form {
   font-size: 15px;
 }
 
-td {
-  width: 38%;
+table {
+  width: 100%;
 }
 
-input[type=checkbox]:checked + label {
-  color: green;
+td {
+  font-size: 17px;
+  width: 33%;
+}
+
+.checkbox {
+  float: right;
 }
 
 .name {
