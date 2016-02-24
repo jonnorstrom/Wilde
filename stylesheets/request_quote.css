@@ -34,7 +34,7 @@ body {
 form {
   margin: 2% auto;
   padding: 1em;
-  width: 320px;
+  width: 380px;
   color: #aaa;
   /*border: .1em solid #ddd;*/
   border-radius: 9px;
@@ -42,6 +42,18 @@ form {
   margin-bottom: 80px;
   font-family:sans-serif;
   font-weight:300;
+}
+
+#subtext {
+  font-size: 15px;
+}
+
+td {
+  width: 38%;
+}
+
+input[type=checkbox]:checked + label {
+  color: green;
 }
 
 .name {
@@ -104,13 +116,15 @@ textarea {
   font-size: 1em;
   font-weight: bold;
 }
-.submit input:focus, .submit input:hover {
+
+.submit input:hover {
   background: #18A361;
   border-bottom-color: #12816b;
 }
+
 .submit input:active {
-  background: #1bc2a2;
-  border-bottom-color: #17a388;
+  background: #116F43;
+  border: none;
 }
 
 
