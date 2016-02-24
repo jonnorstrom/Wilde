@@ -5,7 +5,8 @@
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="stylesheets/default.css"/>
-  <link rel="stylesheet" type="text/css" href="stylesheets/request_quote.css"/>
+  <!-- <link rel="stylesheet" type="text/css" href="stylesheets/request_quote.css"/> -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/claims.css"/>
   <title>Request a Quote | Wilde</title>
 </head>
 <body>
@@ -26,15 +27,15 @@
       <p><a href="contact_us.html">Contact Us</a></p>
   </div>
   <section>
-    <h2>To request a quote:</h2>
+    <h2>To file a claim:</h2>
   </section>
   <form action="#" id="js-form">
     <div class="name">
       <h4> Please call us at 330.927.6025 or fill out this short form and someone will reach out to you!</h4>
-      <input type="text" name="name" placeholder="First Name" />
-      <input type="text" name="surname" placeholder="Last Name" />
+      <input id="first_last" type="text" name="name" placeholder="First Name" />
+      <input id="first_last" type="text" name="surname" placeholder="Last Name" />
+      <input id="phonenum" type="text" name="phone" placeholder="Phone: 555-555-5555" />
       <input type="mail" name="email" placeholder="Email"/>
-      <input type="number" name="phone" placeholder="Phone: 555-555-5555">
     </div>
     <!--  <div class="radio">
     <label for="radio-choice-1">Choice 1</label>
@@ -50,7 +51,7 @@
         <option value="Commercial">Commercial</option>
       </select>
     </div>
-    <div class="check">
+    <!-- <div class="check">
       <p>What would you like to insure?<br><span id="subtext">(Select all that apply)</span></p>
       <table>
         <tr>
@@ -73,48 +74,18 @@
             </td>
         </tr>
       </table>
-    </div>
+    </div> -->
     <div class="message">
-      <label for="textarea">Comments:</label>
-      <textarea maxlength="350" cols="40" rows="8" name="textarea" id="textarea" placeholder="Max Length: 350 characters"></textarea>
+      <label for="textarea">Give us a brief description of the incident:</label>
+      <textarea maxlength="500" cols="40" rows="8" name="textarea" id="textarea" placeholder="Max Length: 500 characters"></textarea>
     </div>
     <div class="submit">
       <input type="submit" value="Submit"/>
     </div>
   </form>
-  <!-- <form action="MAILTO:jon.norstrom@gmail.com" method="post" enctype="text/plain">
-    <fieldset>
-      <label>
-        Name:  <input type="text" name="name" placeholder="Your name here"
-      </label>
-      <label id="email">
-        Email:  <input type="text" name="email" placeholder="jondoe@email.com"
-      </label>
-      <br>
-      <span class="radio">
-        <p>What type of Insurance are you inquiring about?</p>
-        <p>
-          <input type="radio" class="text_box" name="type_of_ins" value="Personal" checked="checked" /> Personal
-          <input type="radio" class="text_box" name="type_of_ins" value="Commercial" /> Commercial
-        </p>
-      </span>
-      <br>
-      <span class="ins_options">
-        <p>What do you wish to insure</p>
-        <select name="type">
-          <option value="Home">Home</option>
-          <option value="Auto">Auto</option>
-          <option value="Renters">Renters</option>
-          <option value="Other">Other</option>
-        </select>
-      </span>
-      <br>
-      <span class="butns">
-        <input type="submit" value="Send" />
-        <input type="reset" value="Reset" />
-      </span>
-    </fieldset>
-  </form> -->
+
+
+
   <footer>
     <p><br></p>
     <p>Email: wildecorpmail@gmail.com  Phone: 330.927.6025</p>
