@@ -29,13 +29,13 @@
   <section>
     <h2>To file a claim:</h2>
   </section>
-  <form action="#" id="js-form">
+  <form action="MAILTO:jon.norstrom@gmail.com" method="post" enctype="text/plain">
     <div class="name">
       <h4> Please call us at 330.927.6025 or fill out this short form and someone will reach out to you!</h4>
-      <input id="first_last" type="text" name="name" placeholder="First Name" />
-      <input id="first_last" type="text" name="surname" placeholder="Last Name" />
-      <input id="phonenum" type="text" name="phone" placeholder="Phone: 555-555-5555" />
-      <input type="mail" name="email" placeholder="Email"/>
+      <input id="first_last" type="text" name="First Name" placeholder="First Name" />
+      <input id="first_last" type="text" name="Last Name" placeholder="Last Name" />
+      <input id="phonenum" type="number" name="Phone Number" placeholder="Phone: 555-555-5555" />
+      <input type="mail" name="Email" placeholder="Email"/>
     </div>
     <!--  <div class="radio">
     <label for="radio-choice-1">Choice 1</label>
@@ -45,7 +45,7 @@
     </div> -->
     <div class="dropdown">
       <label for="select-choice">Select Insurance Type:</label>
-      <select name="select-choice" id="select-choice">
+      <select name="Personal or Commercial?" id="select-choice">
         <option value="">Select Personal or Commercial</option>
         <option value="Personal">Personal</option>
         <option value="Commercial">Commercial</option>
@@ -77,7 +77,7 @@
     </div> -->
     <div class="message">
       <label for="textarea">Give us a brief description of the incident:</label>
-      <textarea maxlength="500" cols="40" rows="8" name="textarea" id="textarea" placeholder="Max Length: 500 characters"></textarea>
+      <textarea maxlength="500" cols="40" rows="8" name="Brief Description" id="textarea" placeholder="Max Length: 500 characters"></textarea>
     </div>
     <div class="submit">
       <input type="submit" value="Submit"/>
