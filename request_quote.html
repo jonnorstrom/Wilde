@@ -31,12 +31,12 @@
   </section>
   <form action="MAILTO:jon.norstrom@gmail.com" method="post" enctype="text/plain">
     <fieldset>
-      <span class="label"><label>
+      <label>
         Name:  <input type="text" name="name" placeholder="Your name here"
       </label>
-      <label>
+      <label id="email">
         Email:  <input type="text" name="email" placeholder="jondoe@email.com"
-      </label></span>
+      </label>
       <br>
       <span class="radio">
         <p>What type of Insurance are you inquiring about?</p>
@@ -54,6 +54,11 @@
           <option value="Renters">Renters</option>
           <option value="Other">Other</option>
         </select>
+      </span>
+      <br>
+      <span class="butns">
+        <input type="submit" value="Send" />
+        <input type="reset" value="Reset" />
       </span>
     </fieldset>
   </form>
