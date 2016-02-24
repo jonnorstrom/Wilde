@@ -7,14 +7,114 @@ h2 {
 }
 
 h4 {
-  color: white;
+  color: rgba(0,0,0,0.6);
   text-align: center;
   font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
-  text-shadow:  0.5px .5px 2px rgba(0, 0, 0, 0.6);
+  /*text-shadow:  0.5px .5px 2px rgba(0, 0, 0, 0.6);*/
 }
 
-fieldset {
+/*form label {
+  font-size: .9em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}*/
+
+/* Form */
+form {
+  margin: 2% auto;
+  padding: 1em;
+  width: 320px;
+  color: #aaa;
+  /*border: .1em solid #ddd;*/
+  border-radius: 9px;
+  background-color: white;
+  margin-bottom: 80px;
+  font-family:sans-serif;
+  font-weight:300;
+}
+
+.name {
+  width: 100%;
+}
+
+.name input,
+.submit input,
+select,
+textarea {
+  width: 47%;
+  height: 3em;
+  text-indent: .5em;
+  border: .1em solid #ddd;
+  border-radius: 4px;
+  outline-color: white;
+}
+
+.name input[name="surname"] {
+  float: right;
+}
+
+.name input[type="mail"] {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.radio,
+.dropdown,
+.message,
+.check,
+.submit {
+  margin-top: 1em;
+}
+
+.dropdown select,
+.message textarea,
+.submit input {
+  width: 100%;
+}
+
+.dropdown select {
+  color: #aaa;
+}
+
+.message textarea {
+  height: 8em;
+}
+
+.check input:before {
+  left: -.1px;
+}
+
+.submit input {
+  font-family: 'Montserrat', sans-serif;
+  background: #116F43;
+  color: #fff;
+  border: 0;
+  border-bottom: 4px solid #0A4328;
+  font-size: 1em;
+  font-weight: bold;
+}
+.submit input:focus, .submit input:hover {
+  background: #18A361;
+  border-bottom-color: #12816b;
+}
+.submit input:active {
+  background: #1bc2a2;
+  border-bottom-color: #17a388;
+}
+
+
+/*fieldset {
   width: 650px;
   margin-left: auto;
   margin-right: auto;
@@ -24,7 +124,7 @@ fieldset {
   font-weight: 400;
   font-size: 18px;
   text-shadow:  0.5px .75px 2px rgba(0, 0, 0, 0.6);
-/*  text-align: center;*/
+  text-align: center;
 }
 
 label {
@@ -54,4 +154,4 @@ input {
 .butns {
   display: block;
   text-align: center;
-}
+}*/
