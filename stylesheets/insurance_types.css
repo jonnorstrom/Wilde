@@ -1,0 +1,20 @@
+main {
+  width: 750px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.about_ins {
+  color: white;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow:  0.5px 1px 4px rgba(0, 0, 0, 0.6);
+}
