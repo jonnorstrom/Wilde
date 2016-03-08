@@ -1,13 +1,19 @@
 h2 {
-  color: white;
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 3px;
+  color: rgb(52, 66, 66);
   text-align: center;
-  font-weight: 400;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-shadow:  0.5px 1px 4px rgba(0, 0, 0, 0.6);
+  font-weight: 100;
+  /*text-shadow:  0.5px 1px 4px rgba(0, 0, 0, 0.6);*/
 }
 
 h4 {
-  color: rgba(0,0,0,0.6);
+
+  border-top: 1px dotted #dce7eb;
+  padding-top: 10px;
+  color: rgb(52, 66, 66);
   text-align: center;
   font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
@@ -33,16 +39,18 @@ body {
 
 /* Form */
 form {
+  box-shadow: 0 8px 0 0 rgb(43,120,68) inset;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 2% auto;
   padding: 1em;
   width: 380px;
-  color: #aaa;
+  color: rgb(52, 66, 66);
   /*border: .1em solid #ddd;*/
   border-radius: 9px;
   background-color: white;
   margin-bottom: 80px;
   font-family:sans-serif;
-  font-weight:300;
+  font-weight:100;
 }
 
 #subtext {
@@ -56,6 +64,7 @@ table {
 td {
   font-size: 17px;
   width: 33%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .checkbox {
@@ -106,8 +115,20 @@ textarea {
   width: 100%;
 }
 
+.dropdown label {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.check p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .dropdown select {
   color: #aaa;
+}
+
+.message {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .message textarea {
