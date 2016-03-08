@@ -32,7 +32,7 @@ nav .nav_option {
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
   margin: 10px 70px 10px 70px;
-  text-shadow: 0px 2px 1px rgba(0, 50, 30, 0.28);
+  text-shadow: 0px 2px 1px rgba(10, 0, 30,);
 }
 /*.dropdown_butn {
   font-family: 'Montserrat', sans-serif;
@@ -56,26 +56,27 @@ nav .nav_option {
   display: none;
   position: absolute;
   left: 68px;
-  top: 41px;
+  top: 43px;
   padding-bottom: 7px;
-  background: rgb(21, 108, 82);
+  background:  rgb(44, 53, 58);
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   width: 140px;
-  border-radius: 3px;
+  /*border-radius: 3px;*/
   z-index: 9999;
+  border-right: rgb(41, 40, 41);
 }
 
 .drop-content2 {
   text-align: left;
   display: none;
   position: absolute;
-  left: 120px;
+  left: 140px;
   top: 0px;
   padding-bottom: 7px;
-  background: rgb(21, 108, 82);
+  background:  rgb(44, 53, 58);
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   width: 150px;
-  border-radius: 3px;
+  /*border-radius: 3px;*/
   z-index: 9999;
 }
 
@@ -88,6 +89,11 @@ nav .nav_option {
  /* border: 1px red solid;*/
   display: block;
   padding-right: 20px;
+  border-bottom: 1px rgb(52, 66, 66) solid;
+}
+
+.drop-content #farm, #hottub {
+  border-bottom: none;
 }
 
 .drop-content a {
@@ -95,7 +101,7 @@ nav .nav_option {
 }
 
 .drop-content a:hover {
-  background-color: #165031;
+  /*background-color: #165031;*/
 }
 
 .dropdown:hover .drop-content {
@@ -118,8 +124,7 @@ nav a {
 }
 
 nav a:hover {
-  text-shadow: 0px 4px 1px rgba(0, 80, 30, 0.70);
-  background-color: #165031;
+  /*text-shadow: 0px 4px 1px rgba(0, 80, 30, 0.70);*/
 }
 
 nav a:active {
@@ -127,17 +132,17 @@ nav a:active {
 }
 
 footer {
-  position: relative;
-  top: 80px;
-  height: 60px;
+  position: fixed;
+  bottom: 0px;
   left: 0px;
   width: 100%;
-  background-color: rgb(44, 53, 58);
+  background-color: rgb(37, 153, 84);
 }
 
 footer p {
   font-family: 'Source Sans Pro', sans-serif;
-  color: rgb(41, 171, 94);
+  color: white;
+  color: rgb(23, 85, 48);
   font-weight: 400;
   font-size: 15px;
   text-align: center;
