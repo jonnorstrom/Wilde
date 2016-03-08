@@ -6,6 +6,10 @@ h2 {
   text-shadow:  0.5px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
+option {
+  padding-top: 0px;
+}
+
 form {
   margin: 2% auto;
   padding: 1em;

@@ -1,9 +1,13 @@
 html {
   height:100%;
   min-width: 1150px;
-  background: radial-gradient(#18a361, #116f43);
+  /*background: rgb(109, 172, 127);*/
+  background: rgb(37, 153, 84);
+  /*brighter color second */
 }
-
+body {
+  margin: 0;
+}
 header {
   /*border: #bff3ca 1px dotted;*/
   height: 140px;
@@ -11,17 +15,25 @@ header {
   margin: auto;
 }
 
-.ul {
-  text-align: center;
+.top_background {
+  width: 100%;
+  /*background: linear-gradient(rgb(26, 113, 87), rgb(21, 108, 82));*/
+  background: linear-gradient(rgb(52, 66, 66), rgb(44, 53, 58));
 }
 
-.ul p {
+nav {
+  /*border: 1px blue dotted;*/
+  text-align: center;
+  /*border-bottom: 1px #156C52 solid;*/
+}
+
+nav .nav_option {
+  /*border: 1px blue dotted;*/
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
   margin: 10px 70px 10px 70px;
   text-shadow: 0px 2px 1px rgba(0, 50, 30, 0.28);
 }
-
 /*.dropdown_butn {
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
@@ -43,12 +55,13 @@ header {
   text-align: left;
   display: none;
   position: absolute;
-  left: 105px;
-  top: 32px;
-  background: radial-gradient(#21784a, #165031);
+  left: 68px;
+  top: 41px;
+  padding-bottom: 7px;
+  background: rgb(21, 108, 82);
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   width: 140px;
-  border-radius: 8px;
+  border-radius: 3px;
   z-index: 9999;
 }
 
@@ -58,10 +71,11 @@ header {
   position: absolute;
   left: 120px;
   top: 0px;
-  background: radial-gradient(#21784a, #165031);
+  padding-bottom: 7px;
+  background: rgb(21, 108, 82);
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   width: 150px;
-  border-radius: 8px;
+  border-radius: 3px;
   z-index: 9999;
 }
 
@@ -98,46 +112,32 @@ header {
   z-index: 9999;
 }
 
-.ul a {
+nav a {
   text-decoration: none;
   color: white;
 }
 
-.ul a:hover {
+nav a:hover {
   text-shadow: 0px 4px 1px rgba(0, 80, 30, 0.70);
+  background-color: #165031;
 }
 
-.ul a:active {
-  font-size: 19px;
+nav a:active {
   text-shadow: 0px 2px 1px rgba(0, 50, 30, 0.28);
-  padding-right: 7px;
-}
-/*
-ul {
-  border: 3px green dotted;
-
 }
 
-li {
-  position: relative;
-  display: inline-block;
-  border: .7px red solid;
-  margin-right: 13%;
-  left: 10%;
-}
-*/
 footer {
-  position: fixed;
+  position: relative;
+  top: 80px;
   height: 60px;
   left: 0px;
-  bottom: 0px;
   width: 100%;
-  background-color: #0a4328;
+  background-color: rgb(44, 53, 58);
 }
 
 footer p {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #c3eed6;
+  color: rgb(41, 171, 94);
   font-weight: 400;
   font-size: 15px;
   text-align: center;
