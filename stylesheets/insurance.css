@@ -1,4 +1,4 @@
-/*.content {
+.content {
   width: 1050px;
   margin-right: auto;
   margin-left: auto;
@@ -37,11 +37,11 @@ h4 {
   font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
   margin-bottom: 50px;
-}*/
+}
 
 
 /* CSS for stacked content html*/
-.content {
+/*.content {
   margin-right: auto;
   margin-left: auto;
   width: 800px;
@@ -77,5 +77,5 @@ h4 {
 .content a {
   text-decoration: none;
   color: white;
-}
+}*/
 /*End of CSS for stacked content HTML*/
