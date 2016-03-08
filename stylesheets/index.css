@@ -13,10 +13,12 @@ main {
   border-radius: 9px;
   box-shadow: 0 8px 0 0 rgb(43, 120, 68) inset;
   background-color: white;
-  position: relative;
+  /*position: relative;*/
   top: 60px;
   width: 750px;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
   padding: 20px 26px 15px 26px;
 }
 
@@ -28,10 +30,13 @@ main p {
   font-size: 17px;
   line-height: 26px;
   letter-spacing: 1px;
-  position: relative;
   overflow: hidden;
   max-height: 800px;
   opacity: 1;
   transform: translate(0, 0);
   z-index: 2;
+}
+
+footer {
+  margin-top: 80px;
 }
