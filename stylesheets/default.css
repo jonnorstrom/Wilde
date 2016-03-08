@@ -15,6 +15,10 @@ header {
   margin: auto;
 }
 
+.nav_option {
+  transition: all .25s ease-in-out;
+}
+
 .top_background {
   width: 100%;
   /*background: linear-gradient(rgb(26, 113, 87), rgb(21, 108, 82));*/
@@ -95,14 +99,15 @@ nav .nav_option {
 }
 
 .drop-content a {
+  padding-left: 5px;
   padding-right: 30px;
 }
 
-.drop-content a:hover {
-  /*background-color: #165031;*/
+.drop-content p:hover {
+  background-color: rgb(52, 66, 66);
 }
 
-.drop_down:hover .drop-content {
+.drop_down:hover .drop-content, .drop-content2{
   display: block;
   z-index: 9998;
 }
@@ -111,10 +116,10 @@ nav .nav_option {
   padding-right: 30px;
 }
 
-.dropdown2:hover .drop-content2 {
+/*.dropdown2:hover .drop-content2 {
   display: block;
   z-index: 9999;
-}
+}*/
 
 nav a {
   text-decoration: none;
