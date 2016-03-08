@@ -77,9 +77,31 @@ nav .nav_option {
   padding-bottom: 7px;
   background:  rgb(44, 53, 58);
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  width: 150px;
+  width: 160px;
   /*border-radius: 3px;*/
   z-index: 9999;
+}
+
+.drop-content3 {
+  text-align: left;
+  display: none;
+  position: absolute;
+  left: 140px;
+  top: 28px;
+  width: 225px;
+  background: rgb(44, 53, 58);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.drop-content4 {
+  text-align: left;
+  display: none;
+  position: absolute;
+  left: 140px;
+  top: 58px;
+  width: 200px;
+  background: rgb(44, 53, 58);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .drop-content p {
@@ -90,12 +112,16 @@ nav .nav_option {
   margin: 3px 10px 3px 10px;
  /* border: 1px red solid;*/
   display: block;
-  padding-right: 20px;
+  padding-right: 0px;
   border-bottom: 1px rgb(52, 66, 66) solid;
 }
 
-.drop-content #farm, #hottub {
+.drop-content #farm, #umbrella, #com_auto, #subfarm {
   border-bottom: none;
+}
+
+.drop-content3 p {
+  padding-right: 3px;
 }
 
 .drop-content a {
@@ -107,13 +133,28 @@ nav .nav_option {
   background-color: rgb(52, 66, 66);
 }
 
-.drop_down:hover .drop-content, .drop-content2{
+.drop_down:hover .drop-content{
+  display: block;
+  z-index: 9998;
+}
+
+.dropdown2:hover .drop-content2{
+  display: block;
+  z-index: 9998;
+}
+
+.dropdown3:hover .drop-content3{
+  display: block;
+  z-index: 9998;
+}
+
+.dropdown4:hover .drop-content4{
   display: block;
   z-index: 9998;
 }
 
 .dropdown2 {
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 /*.dropdown2:hover .drop-content2 {
