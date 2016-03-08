@@ -6,7 +6,12 @@ h2 {
   text-shadow:  0.5px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
+section {
+  padding-top: 70px;
+}
+
 main {
+  /*padding-top: 100px;*/
   width: 750px;
   margin: auto;
   padding-bottom: 40px;
