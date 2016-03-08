@@ -1,23 +1,21 @@
 h2 {
-  color: white;
+  color: rgb(43, 120, 68);
   text-align: center;
   font-weight: 400;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-shadow:  0.5px 1px 4px rgba(0, 0, 0, 0.6);
-}
-
-section {
-  padding-top: 70px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 main {
+  background-color: white;
+  position: relative;
+  top: 60px;
   width: 750px;
   margin: auto;
   padding-bottom: 40px;
 }
 
 main p {
-  color: white;
+  color: rgb(43, 120, 68);
   font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
 }
