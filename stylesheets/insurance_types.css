@@ -38,7 +38,7 @@ html {
   /*color of top border */
   box-shadow: 0 8px 0 0 rgb(43,120,68) inset;
   background-color: #fefffa;
-  max-width: 450px;
+  max-width: 500px;
   padding: 30px;
   border-radius: 9px;
 }
@@ -58,8 +58,9 @@ html {
 }*/
 
 h1 {
+  text-align: center;
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 42px;
   letter-spacing: 3px;
   font-weight: 100;
