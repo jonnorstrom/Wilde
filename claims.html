@@ -58,20 +58,14 @@
     <div class="name">
       <h2>To file a claim:</h2>
       <h4> Please call us at 330.927.6025 or fill out this short form and someone will reach out to you!</h4>
-      <input id="first_last" type="text" name="First Name" placeholder="First Name" />
-      <input id="first_last" type="text" name="Last Name" placeholder="Last Name" />
-      <input id="phonenum" type="number" name="Phone Number" placeholder="Phone: 555-555-5555" />
-      <input type="mail" name="Email" placeholder="Email"/>
+      <input id="first_last" type="text" name="first_name" placeholder="First Name" />
+      <input id="first_last" type="text" name="last_name" placeholder="Last Name" />
+      <input id="phonenum" type="number" name="phone_number" placeholder="Phone: 555-555-5555" />
+      <input type="mail" name="email" placeholder="Email"/>
     </div>
-    <!--  <div class="radio">
-    <label for="radio-choice-1">Choice 1</label>
-    <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" />
-    <label for="radio-choice-2">Choice 2</label>
-    <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" />
-    </div> -->
     <div class="dropdown">
       <label for="select-choice">Select Insurance Type:</label>
-      <select name="Personal or Commercial?" id="select-choice">
+      <select name="personal_or_commercial" id="select-choice">
         <option value="">Select Insurance Type</option>
         <option value="Auto">Auto</option>
         <option value="Personal">Personal</option>
@@ -79,30 +73,6 @@
         <option value="Other">Other (Please Specify Below)</option>
       </select>
     </div>
-    <!-- <div class="check">
-      <p>What would you like to insure?<br><span id="subtext">(Select all that apply)</span></p>
-      <table>
-        <tr>
-          <td><label for="checkbox">Home:</label>
-              <input type="checkbox" name="checkbox" id="checkbox" />
-            </td>
-          <td><label for="checkbox">Auto:</label>
-              <input type="checkbox" name="checkbox" id="checkbox" />
-            </td>
-          <td><label for="checkbox">Rental:</label>
-              <input type="checkbox" name="checkbox" id="checkbox" />
-            </td>
-        </tr>
-        <tr>
-          <td><label for="checkbox">Boat:</label>
-              <input type="checkbox" name="checkbox" id="checkbox" />
-            </td>
-          <td><label for="checkbox">Other:</label>
-              <input type="checkbox" name="checkbox" id="checkbox" />
-            </td>
-        </tr>
-      </table>
-    </div> -->
     <div class="message">
       <label for="textarea">Give us a brief description of the incident:</label>
       <textarea maxlength="500" cols="40" rows="8" name="Brief Description" id="textarea" placeholder="Max Length: 500 characters"></textarea>
@@ -111,8 +81,6 @@
       <input type="submit" value="Submit"/>
     </div>
   </form>
-
-
 
   <footer>
     <p>Email: wildecorpmail@gmail.com  Phone: 330.927.6025</p>
