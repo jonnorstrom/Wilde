@@ -36,39 +36,15 @@ main p {
   z-index: 2;
 }
 
-.imgs {
-  position: relative;
-  margin: auto;
-  top: 60px;
-  width: 1050px;
-  /*border: 1px red solid;*/
+table {
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
-.carrier {
-  top: 30px;
-  display: inline-block;
-  position: relative;
-}
-
-#first {
-  left: 140px;
-}
-
-#second {
-  left: 165px;
-}
-
-.liberty {
-  position: relative;
-  top: 100px;
-  /*border: 1px red solid;*/
-  padding-bottom: 100px;
-}
-
-#third {
-  display: inline-block;
-  position: relative;
-  left: 510px;
-  height: 120px;
-  width: 240px;
+#liberty {
+  margin-left: 210px;
+  width: 300px;
+  height: 110px;
 }
