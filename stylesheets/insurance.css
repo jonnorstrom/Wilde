@@ -4,22 +4,24 @@ table {
 
 td {
   width: 33%;
+  border: 1px blue dotted;
 }
 
 
 .content {
-  position: relative;
-  top: 60px;
+  /*position: relative;*/
   width: 1050px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 80px;
+  margin-top: 30px;
   border-radius: 9px;
   box-shadow: 0 8px 0 0 rgb(43, 120, 68) inset;
   background-color: white;
-  padding: 20px 26px 5px 26px;
+  padding: 20px 26px 20px 26px;
 }
 
-/*h2 {
+h2 {
   padding-bottom: 20px;
   border-bottom: 1px dotted #dce7eb;
   color: rgb(43, 120, 68);
@@ -31,10 +33,10 @@ td {
   line-height: 42px;
   letter-spacing: 3px;
   font-weight: 100;
-}*/
+}
 
 h4 {
-  position: relative;
+  /*position: relative;*/
   font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
   font-size: 19px;
@@ -51,52 +53,7 @@ table a {
 }
 
 .filler {
-  position: relative;
-  top: 0px;
-  margin-top: 0px;
   color: rgb(52, 66, 66);
   font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
-  /*margin-bottom: 50px;*/
 }
-
-
-/* CSS for stacked content html*/
-/*.content {
-  margin-right: auto;
-  margin-left: auto;
-  width: 800px;
-  padding-bottom: 80px;
-}
-
-h2 {
-  color: white;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 400;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-shadow:  0.5px 1px 4px rgba(0, 0, 0, 0.6);
-}
-
-h4 {
-  color: white;
-  margin-bottom: 0px;
-  text-align: center;
-  font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
-  text-shadow:  0.3px .5px 2px rgba(0, 0, 0, 0.6);
-}
-
-.content p {
-  margin-top: 0px;
-  color: white;
-  font-weight: 300;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin-bottom: 50px;
-}
-
-.content a {
-  text-decoration: none;
-  color: white;
-}*/
-/*End of CSS for stacked content HTML*/

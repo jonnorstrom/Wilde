@@ -2,10 +2,12 @@
   border-radius: 9px;
   box-shadow: 0 8px 0 0 rgb(43, 120, 68) inset;
   background-color: white;
-  position: relative;
+  /*position: relative;*/
   padding: 8px 20px 15px 20px;
   width: 1000px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
   top: 30px;
 }
 
@@ -64,6 +66,10 @@ article p {
 article a {
   text-decoration: none;
   color: rgb(52, 66, 66);
+}
+
+footer {
+  margin-top: 80px;
 }
 
 /*article a:hover {
