@@ -1,17 +1,13 @@
 require 'sinatra'
+require 'mail'
 require 'postmark'
-
-configure do
-  set :mailer, Postmark::ApiClient.new('')
-end
 
 get '/' do
   redirect '/index.html'
 end
 
 get '/send_mail' do
-  settings.mailer.deliver(from: 'claims@wildecorpinsurance.com',
-                          to: 'jon.norstrom@gmail.com',
-                          subject: 'A Test Email',
-                          text_body: 'A simple plain text test email.')
+  mailer = Postmark::ApiClient.new('a3410648-e7b1-4011-8827-183da0a3750d')
+  mailer.deliver(from: 'claims@wildecorpinsurance.com', to: 'michael@docondev.com', subject: 'A Test Email', text_body: 'A simple plain text test email.')
+  redirect '/thank_you.html'
 end
