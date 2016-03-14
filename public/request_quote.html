@@ -58,20 +58,15 @@
     <div class="name">
       <h2>To request a quote:</h2>
       <h4> Please call us at 330.927.6025 or fill out this short form and someone will reach out to you!</h4>
-      <input type="text" name="First Name" placeholder="First Name" />
-      <input type="text" name="Last Name" placeholder="Last Name" />
-      <input type="mail" name="Email" placeholder="Email"/>
-      <input type="number" name="Phone Number" placeholder="Phone: 555-555-5555">
+      <input type="text" name="first_name" placeholder="First Name" required/>
+      <input type="text" name="last_name" placeholder="Last Name" required/>
+      <input type="mail" name="email" placeholder="Email" required/>
+      <input type="number" name="phone_number" placeholder="Phone: 555-555-5555" required/>
     </div>
-    <!--  <div class="radio">
-    <label for="radio-choice-1">Choice 1</label>
-    <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" />
-    <label for="radio-choice-2">Choice 2</label>
-    <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" />
-    </div> -->
+
     <div class="dropdown">
       <label for="select-choice">Select Insurance Type:</label>
-      <select name="Personal or Commercial?" id="select-choice">
+      <select name="personal_or_commercial?" id="select-choice">
         <option value="">Select Personal or Commercial</option>
         <option value="Personal">Personal</option>
         <option value="Commercial">Commercial</option>
@@ -82,39 +77,39 @@
       <table>
         <tr>
           <td><label for="checkbox">Home:</label>
-              <input type="checkbox" name="Home" id="checkbox" />
+              <input type="checkbox" name="home" id="checkbox" />
             </td>
           <td><label for="checkbox">Auto:</label>
-              <input type="checkbox" name="Auto" id="checkbox" />
+              <input type="checkbox" name="auto" id="checkbox" />
             </td>
           <td><label for="checkbox">Farm:</label>
-              <input type="checkbox" name="Farm" id="checkbox" />
+              <input type="checkbox" name="farm" id="checkbox" />
             </td>
         </tr>
         <tr>
           <td><label for="checkbox">Boat:</label>
-              <input type="checkbox" name="Boat" id="checkbox" />
+              <input type="checkbox" name="boat" id="checkbox" />
             </td>
           <td><label for="checkbox">RV:</label>
-              <input type="checkbox" name="RV" id="checkbox" />
+              <input type="checkbox" name="rv" id="checkbox" />
             </td>
           <td><label for="checkbox">Motorcycle:</label>
-              <input type="checkbox" name="Motorcycle" id="checkbox" />
+              <input type="checkbox" name="motorcycle" id="checkbox" />
             </td>
         </tr>
         <tr>
           <td><label for="checkbox">Rental:</label>
-              <input type="checkbox" name="Rental" id="checkbox" />
+              <input type="checkbox" name="rental" id="checkbox" />
             </td>
           <td><label for="checkbox">Other:</label>
-              <input type="checkbox" name="Other" id="checkbox" />
+              <input type="checkbox" name="other" id="checkbox" />
             </td>
         </tr>
       </table>
     </div>
     <div class="message">
       <label for="textarea">Comments:</label>
-      <textarea maxlength="350" cols="40" rows="8" name="Comments:" id="textarea" placeholder="Max Length: 350 characters"></textarea>
+      <textarea maxlength="350" cols="40" rows="8" name="comments" id="textarea" placeholder="Max Length: 350 characters"></textarea>
     </div>
     <div class="submit">
       <input type="submit" value="Submit"/>

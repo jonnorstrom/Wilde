@@ -58,10 +58,10 @@
     <div class="name">
       <h2>To file a claim:</h2>
       <h4> Please call us at 330.927.6025 or fill out this short form and someone will reach out to you!</h4>
-      <input id="first_last" type="text" name="first_name" placeholder="First Name" />
-      <input id="first_last" type="text" name="last_name" placeholder="Last Name" />
-      <input id="phonenum" type="number" name="phone_number" placeholder="Phone: 555-555-5555" />
-      <input type="mail" name="email" placeholder="Email"/>
+      <input id="first_last" type="text" name="first_name" placeholder="First Name" required/>
+      <input id="first_last" type="text" name="last_name" placeholder="Last Name" required/>
+      <input id="phonenum" type="number" name="phone_number" placeholder="Phone: 555-555-5555" required/>
+      <input type="mail" name="email" placeholder="Email" required/>
     </div>
     <div class="dropdown">
       <label for="select-choice">Select Insurance Type:</label>
@@ -75,7 +75,7 @@
     </div>
     <div class="message">
       <label for="textarea">Give us a brief description of the incident:</label>
-      <textarea maxlength="500" cols="40" rows="8" name="Brief Description" id="textarea" placeholder="Max Length: 500 characters"></textarea>
+      <textarea maxlength="500" cols="40" rows="8" name="brief_description" id="textarea" placeholder="Max Length: 500 characters"></textarea>
     </div>
     <div class="submit">
       <input type="submit" value="Submit"/>
