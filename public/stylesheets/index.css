@@ -9,20 +9,20 @@ h2 {
   font-weight: 100;
 }
 
-main {
+.main {
   border-radius: 9px;
   box-shadow: 0 8px 0 0 rgb(43, 120, 68) inset;
   background-color: white;
   /*position: relative;*/
   top: 60px;
-  width: 750px;
+  width: 650px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
   padding: 20px 26px 15px 26px;
 }
 
-main p {
+.main p {
   border-top: 1px dotted #dce7eb;
   padding-top: 15px;
   color: rgb(52, 66, 66);
