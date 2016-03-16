@@ -43,6 +43,10 @@ table {
   margin-bottom: 30px;
 }
 
+table {
+  table-layout: fixed;
+}
+
 #wayne {
   display: inline-block;
   margin-left: 80px;

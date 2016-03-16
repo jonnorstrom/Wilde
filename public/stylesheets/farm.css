@@ -43,6 +43,10 @@ table {
   margin-bottom: 20px;
 }
 
+table {
+  table-layout: fixed;
+}
+
 #liberty {
   margin-left: 210px;
   width: 300px;
