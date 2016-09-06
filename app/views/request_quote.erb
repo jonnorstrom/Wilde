@@ -1,0 +1,61 @@
+<form action="/send_request_mail" method="post"/>
+  <div class="name">
+    <h2>To request a quote:</h2>
+    <h4> Please call us at 330.927.6025 or fill out this short form and someone will reach out to you!</h4>
+    <input type="text" name="first_name" placeholder="First Name" required/>
+    <input type="text" name="last_name" placeholder="Last Name" required/>
+    <input type="mail" name="email" placeholder="Email" required/>
+    <input type="number" name="phone_number" placeholder="Phone: 555-555-5555" required/>
+  </div>
+
+  <div class="dropdown">
+    <label for="select-choice">Select Insurance Type:</label>
+    <select name="personal_or_commercial?" id="select-choice">
+      <option value="">Select Personal or Commercial</option>
+      <option value="Personal">Personal</option>
+      <option value="Commercial">Commercial</option>
+    </select>
+  </div>
+  <div class="check">
+    <p>What would you like to insure?<br><span id="subtext">(Select all that apply)</span></p>
+    <table>
+      <tr>
+        <td><label for="checkbox">Home:</label>
+            <input type="checkbox" name="home" id="checkbox" />
+          </td>
+        <td><label for="checkbox">Auto:</label>
+            <input type="checkbox" name="auto" id="checkbox" />
+          </td>
+        <td><label for="checkbox">Farm:</label>
+            <input type="checkbox" name="farm" id="checkbox" />
+          </td>
+      </tr>
+      <tr>
+        <td><label for="checkbox">Boat:</label>
+            <input type="checkbox" name="boat" id="checkbox" />
+          </td>
+        <td><label for="checkbox">RV:</label>
+            <input type="checkbox" name="rv" id="checkbox" />
+          </td>
+        <td><label for="checkbox">Motorcycle:</label>
+            <input type="checkbox" name="motorcycle" id="checkbox" />
+          </td>
+      </tr>
+      <tr>
+        <td><label for="checkbox">Rental:</label>
+            <input type="checkbox" name="rental" id="checkbox" />
+          </td>
+        <td><label for="checkbox">Other:</label>
+            <input type="checkbox" name="other" id="checkbox" />
+          </td>
+      </tr>
+    </table>
+  </div>
+  <div class="message">
+    <label for="textarea">Comments:</label>
+    <textarea maxlength="350" cols="40" rows="8" name="comments" id="textarea" placeholder="Max Length: 350 characters"></textarea>
+  </div>
+  <div class="submit">
+    <input type="submit" value="Submit"/>
+  </div>
+</form>

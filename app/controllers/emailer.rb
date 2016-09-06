@@ -1,10 +1,3 @@
-require 'sinatra'
-require 'mail'
-require 'postmark'
-
-get '/' do
-  redirect '/index.html'
-end
 
 post '/send_claims_mail' do
 #for the email recipient
